@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Home page of Bizarre Balloons, made for every occasion">
+    <meta name="keywords" content="balloon, bizarre">
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>	
+    <script type="text/javascript" src="script.js"></script>
+    
+    <link rel="stylesheet" href="main.css" type="text/css">
+    
+    
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        <a name="home"></a>
+        <div class="logo"><h1>Bizarre<span style="color: #FF0000">Balloons</span>.com</h1></div>
+        <img src="images/balloons-up.jpg">
+            <div class="navMenu">
+                <ul>
+                    <li><a href="index.html#home" class="active">Home</a></li>
+                    <li><a href="index.html#register">Register</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="basket.html">Basket</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </ul>
+            </div> <!-- navigation menu -->
+        </header>
+    
+<div class="mainContent">
+    <div class="home">
+        <h2>Home</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        
+        <!-- keep will link to main.php -->
+        <p>Register for our newsletter</p>
+            <form action="subscribe.php" method="get">
+                <label>Email:</label>
+                <input type="text" name="email">
+                <input type="submit" value="Subcribe">
+            </form>
+    </div>
+    
+        <!-- Register page -->
+    <a name="register"><br><br></a>
+		<div class="register">
+            <h2>Register</h2>
+			<div class="column1of2">
+            <p>Register as a valued customer of Bizarre Balloons Now.</p>
+        <form action="register.php" method="post">
+            <p><label>Email address:</label><input type="text" name="email" /></p>
+            <p><label>First Name:</label><input type="text" name="fname" /></p>
+            <p><label>Surname:</label> <input type="text" name="sname" /> </p>
+            <p><label>Post Code:</label> <input type="text" name="pcode" /></p>
+            <p><label>Password:</label> <input type="password" name="pass" /></p>
+            <p><input type="submit" value="Register" /> </p>
+        </form>
+        </div>
+        <div class="column2of2">
+            <p>For returning customers please log in bellow </p>
+            <form action="login.php" method="post">
+            <p><label>Email address:</label><input type="text" name="email" /></p>
+                <p><label>Password:</label><input type="password" name="pass" /></p>
+                <p><input type="submit" value="Log In" /></p>
+            </form>
+            </div>
+    </div>
+    
+<!-- Start of contact Page -->
+    <a name="contact"><br><br></a>
+		<div class="contact">
+            <h2>Contact</h2>
+            <div class="column1of2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                
+                
+            </div>
+            <div class="column2of2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4845.598545424017!2d-0.24318800000000002!3d52.609399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877f0d636fda6ab%3A0x4c4e6d30b2e0c75f!2sPatterdale+Dr%2C+Peterborough+PE4+7ZU%2C+UK!5e0!3m2!1sen!2suk!4v1426005756407" width="400" height="300" frameborder="0" style="border:0"></iframe>
+                </div>
+
+            </div>
+        </div>
+    
+</div><!-- ends container -->
+</body>
+</html>

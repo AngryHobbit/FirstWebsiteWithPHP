@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Home page of brutal balloon, made for every occasion">
+    <meta name="keywords" content="balloon, bizarre">
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>	
+    <script type="text/javascript" src="script.js"></script>
+    
+    <link rel="stylesheet" href="main.css" type="text/css">
+    
+    
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        <a name="home"></a>
+        <div class="logo"><h1>Bizarre<span style="color: #FF0000">Balloons</span>.com</h1></div>
+        <img src="images/balloons-up.jpg">
+            <div class="navMenu">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#register">Register</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="basket.html">Basket</a></li>
+                    <li><a href="logout.html" class="active">Logout</a></li>
+                </ul>
+            </div> <!-- navigation menu -->
+        </header>
+    <div class="mainContent">
+        <div class="main">
+            <?php
+                include "main.php";
+                logout();
+            ?>
+            
+
+        </div>
+</div><!-- ends container -->
+</body>
+</html>

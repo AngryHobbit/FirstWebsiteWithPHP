@@ -1,0 +1,139 @@
+html
+{
+    background-color: #E8E8E8;
+}
+
+body 
+{
+    margin:0;
+}
+
+.mainContent 
+{
+    padding:1em;
+}
+
+header img 
+{
+    width:100%;
+    max-height: 250px;
+    min-width:1024px;
+}
+
+.logo
+{
+    position: absolute;
+    min-width:830px;
+    min-height: 10px;
+    text-align: right;
+    padding: 3em;
+    color: #FFFFFF;
+    text-shadow:
+    -1px -1px 0 #505050,
+    1px -1px 0 #505050,
+    -1px 1px 0 #505050,
+    1px 1px 0 #505050; 
+    
+}
+
+.container 
+{
+    width:1024px;
+    min-height: 1350px;
+    margin:0 auto; 
+    background-color:#FFFFFF;
+}
+
+.contact
+{
+    min-width: 1024px;
+    min-height: 400px 
+}
+
+.register
+{
+    min-width: 1024px;
+    min-height: 300px
+}
+
+tr
+{
+    min-width:1024px;
+    margin:0 auto;
+}
+
+td
+{
+    text-align: center; 
+    padding:5px; 
+    list-style:none;
+}
+
+
+.column1of2 
+{
+    float: left;
+    max-width: 510px;
+    min-width: 510px;
+    padding: 15px;
+    
+}
+.column2of2 
+{
+    float: left;
+    min-width: 410px;
+}
+
+
+
+.navMenu 
+{
+    height:50px; 
+    background-color: #F6F6F6;
+    width:100%; 
+    margin-top:-5px;
+}
+
+.navMenu ul 
+{
+    min-width:1024px;
+    margin:0 auto;
+}
+
+.navMenu li 
+{
+    display:inline-block; 
+    margin:1em; 
+    list-style:none;
+}
+
+.navMenu a
+{
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 25px 16px 25px;
+    
+}
+
+
+.navMenu a:hover 
+{
+    color: #FFFFFF;
+    background-color: #505050;;
+}
+
+a.active 
+{
+    color: #FFFFFF;
+    background-color: #cc3333;
+}
+
+.fixedTop 
+{
+    position:fixed; 
+    width:1024px; 
+    margin:0 auto; 
+    top:0px;
+}
